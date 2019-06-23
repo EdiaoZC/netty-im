@@ -11,5 +11,11 @@
 
     <artifactId>im-biz</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.demo</groupId>
+            <artifactId>im-common</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.demo</groupId>
+    <groupId>com.skyeidos</groupId>
     <artifactId>netty-im</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -22,29 +22,29 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.demo</groupId>
+                <groupId>com.skyeidos</groupId>
                 <artifactId>im-common</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>com.demo</groupId>
+                <groupId>com.skyeidos</groupId>
                 <artifactId>im-biz</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>com.demo</groupId>
+                <groupId>com.skyeidos</groupId>
                 <artifactId>im-client</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>com.demo</groupId>
+                <groupId>com.skyeidos</groupId>
                 <artifactId>im-server</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-all</artifactId>
-                <version>4.1.36.Final</version>
+                <version>4.1.42.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -89,4 +89,17 @@
     </dependencyManagement>
 
 
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
